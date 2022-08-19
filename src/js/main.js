@@ -1,3 +1,4 @@
-import './lib/lib';
+import $ from './lib/lib';
 
-$('.active').toggle();
+// $('.active').addAttribute('href', '#');
+$('.active').removeAttribute('href', '#');
